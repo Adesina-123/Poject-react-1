@@ -1,0 +1,111 @@
+body {
+  background-color: #f5f7fa;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Roboto';
+  width: 100%;
+}
+@media (max-width: 1125px) {
+  .rr {
+    width: 164%;
+  }
+  .ff {
+    width: 164%;
+  }
+  .hh {
+    width: 48%;
+    position: relative;
+    right: 54px;
+  }
+}
+@media (max-width: 1102px) {
+  .hh {
+    right: 40px;
+  }
+  table {
+    width: 95%;
+    td {
+      padding: 8px 8px 17px 8px;
+    }
+  }
+}
+@media (max-width: 1039px) {
+  .hh {
+    right: 30px;
+  }
+    table {
+      margin-top: 19px;
+     td {
+      padding: 6px 8px 22px 6px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+
+
+.footer {
+  margin-top: 70%;
+}
+a {
+  color: black;
+}
+}
+@media (max-width:1010px) {
+  .oil {
+    display: block;
+    margin-left: 118px;
+    margin-top: 94px;
+  
+  }
+  .sec {
+    margin-left: 51px;
+    margin-top: 32px;
+  }
+  .rr {
+    width: 80%;
+  }
+  .ff {
+    width: 80%;
+  }
+  .hh {
+    width: 80%;
+    // right: 237px;
+    right: 25%;
+    margin-top: 15px;
+  
+  }
+  .dove {
+    display: block;
+    text-align: center;
+    margin-top: 29px;
+    .first {
+      margin-bottom: 15px;
+    }
+    .secod {
+      margin-bottom: 15px;
+    }
+    .third {
+      margin-bottom: 15px;
+    }
+    .fourth {
+      margin-bottom: 15px;
+    }
+    .five {
+      margin-bottom: 15px;
+    }
+    .six {
+      margin-bottom: 15px;
+      margin-left: inherit;
+    }
+  }
+ 
+  .footer {
+    margin-bottom: 17%;
+    margin-top: 46px;
+  }
+  hr.move {
+    width: 69%;
+    margin-left: 117px;
+  }
+
+}

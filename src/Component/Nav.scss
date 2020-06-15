@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .nav {
+    background-color: white;
+    height: 55px;
+    display: flex;
+    width: 106%;
+  }
+  .milled {
+    margin-left: 48px;
+    margin-top: 12px;
+    position: relative;
+    display: inline-block;
+  
+    &:hover .dropdown {
+      display: block;
+  }
+  }
+  .milk {
+    margin-left: 28px;
+    margin-top: 12px;
+    position: relative;
+    display: inline-block;
+  
+  
+    &:hover .dropdown {
+      display: block;
+  }
+  
+  }
+  .dropdown {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+      
+  }
+    
+  .dropdown p {
+    padding: 12px 16px;
+    display: block;
+  }
+    
+  
+  a.list {
+    margin-right: 70px;
+  
+    i.fa.fa-caret-down {
+      margin-left: 12px;
+    }
+  }
+  .list.pad {
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 12px;
+  
+    a.listad {
+      margin-right: 20px;
+    }
+  }
+  .sec {
+    display: flex;
+    position: relative;
+    top: 28px;
+    left: 52px;
+  }
+  i.far.fa-user-circle.joy {
+    font-size: 43px;
+  }
+  .two-ames {
+    margin-left: 18px;
+  }
+  h3.hello {
+    text-transform: uppercase;
+  }
+  a.profile {
+    font-weight: 500;
+    color: #0092fe;
+    text-transform: uppercase;
+  }
+  a.set {
+    text-transform: uppercase;
+    color: #0092fe;
+  }
+  a.lilly {
+    color: #0092fe;
+  }
+  
